@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Style for all h2 tags */
+.home h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style specifically for "No Record Found" h2 tag */
+.home .no-record-found {
+  font-style: italic;
+  color: #999;
+  
+}
+
+
+.create_form {
+  display: flex;
+  gap: 10px;
+}
+
+.create_form input {
+  width: 250px;
+  padding: 15px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.create_form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create_form button:hover {
+  background-color: #0056b3;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 345px;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task p {
+  margin: 0;
+}
+
+.checkbox .icon {
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.task div span .icon {
+  font-size: 18px;
+  color: #dc3545;
+  cursor: pointer;
+}
